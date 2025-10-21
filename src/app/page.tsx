@@ -1,4 +1,4 @@
-use client
+"use client";
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
@@ -57,7 +57,6 @@ export default function Home() {
           title="About Us"
           description="Learn more about our mission, values, and the impact we aim to achieve."
           imageSrc={assetMap.find(a => a.id === "about-image")?.url}
-          imageAlt={assetMap.find(a => a.id === "about-image")?.alt}
           bulletPoints={[
             { title: "Community", description: "Fostering local growth", icon: "Users" },
             { title: "Sustainability", description: "Long-term impact", icon: "Leaf" }
