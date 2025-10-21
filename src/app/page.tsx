@@ -58,8 +58,8 @@ export default function Home() {
           description="Learn more about our mission, values, and the impact we aim to achieve."
           imageSrc={assetMap.find(a => a.id === "about-image")?.url}
           bulletPoints={[
-            { title: "Community", description: "Fostering local growth", icon: "Users" },
-            { title: "Sustainability", description: "Long-term impact", icon: "Leaf" }
+            { title: "Community", description: "Fostering local growth", icon: Users },
+            { title: "Sustainability", description: "Long-term impact", icon: Leaf }
           ]}
         />
       </div>
